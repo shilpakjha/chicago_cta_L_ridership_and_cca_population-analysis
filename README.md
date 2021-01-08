@@ -1,7 +1,3 @@
-## Date created
-
-Project and README file created on 2020-05-15
-
 ## Project Title
 
 Analysis of CTA L-ridership and population trends in Chicago Community Areas for loop and surrounding areas
@@ -13,19 +9,20 @@ In Chicago, the nine CTA L-lines (Red, Blue, Brown, Green, Orange, Pink, Purple,
 In this project, we will use the CTA L Line ridership data from years, 2014 to 2019, and the population data for each Chicago Community Areas (2000, 2010, 2017)to understand ridership, and population trends and depict patterns. We will write a python code to run commands and compute statistics using pandas to answer the following questions:
 * Total CTA L-ridership trend from 2014 to 2019 for all CTA L-Lines combined together 
 * Ridership analysis by each of the nine individual CTA L-Lines for 2014 to 2019
+* Combined ridership trend at the L-Loop Stations from 2014 to 2019
 * L-Loop Stations ridership analysis(Clark/Lake, State/Lake, Lake/State, Washington/Dearborn, Monroe/State, Adams/Wabash, Washington/Wabash, Harrison, LaSalle, LaSalle/Van Buren, Quincy/Wells, Washington/Wells) Merchandise Mart, Monroe/Dearborn, Jackson/Dearborn
 * Population near the community areas around the loop and surrounding loop areas
 
 ## APIs used
-* CTA_-Ridership-L-Station-Entries-Monthly-Day: "https://data.cityofchicago.org/resource/t2rn-p8d7.csv?%24limit=350000"
-* L-Map_Stops: "https://data.cityofchicago.org/resource/8pix-ypme.csv"
+* CTA_-Ridership-L-Station-Entries-Monthly-Day: https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7
+* L-Map_Stops: https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme/data
 
 ## Data sources:
-* CTA_-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7: https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7
+* CTA_-Ridership-L-Station-Entries: https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7
 * L-stops: https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme/data 
+* Chicago Community Areas Data: https://datahub.cmap.illinois.gov/dataset/1d2dd970-f0a6-4736-96a1-3caeb431f5e4/resource/96bc2e7d-9276-4d66-8cbf-63a0ed09a2a2/download/CDSarchive201906.zip
 
-## Files used
-* Chicago L, Taxi and TNP 2019 data: chi_lrides_taxi_tnp_2019_airport_pick_drop_rides.csv 
+## Files used:
 * Chicago CCA Population File: ReferenceCCAProfiles20132017mergedCCAcopy.csv 
 
 ## Credits 
