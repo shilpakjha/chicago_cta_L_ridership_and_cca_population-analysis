@@ -13,6 +13,12 @@ In this project, we will use the CTA L Line ridership data from years, 2014 to 2
 * L-Loop Stations ridership analysis(Clark/Lake, State/Lake, Lake/State, Washington/Dearborn, Monroe/State, Adams/Wabash, Washington/Wabash, Harrison, LaSalle, LaSalle/Van Buren, Quincy/Wells, Washington/Wells) Merchandise Mart, Monroe/Dearborn, Jackson/Dearborn
 * Population near the community areas around the loop and surrounding loop areas
 
+## Key Analysis Insights
+* It is interesting to note that even if the overall L- ridership declined from 2014 to 2019 by 8.1%, the Chicago Loop ridership (within the Chicago Loop) increased by 8.4%.
+* This trend correlates with the CCA 32 population trend data which saw a 22.5% increase in the loop population from 2010 to 2017.
+* A closer look at the loop station ridership showed that the increase in ridership was mainly in a few stations (State/Lake, Washington/Wells, Washington/Dearborn, Monroe/Dearborn, Merchandise Mart, Clark/Lake, LaSalle/Van Buren) - increase range of 22.3 - 1.1 %.
+* Based on the data available for the loop stations along Washington St, the increase in ridership was localized to these stations (predominantly Washington/Wells and Washington/Dearborn). This may be because of the close proximity of these stations to the Ogilvie Transpiration Center which is the connection hub for the Chicago Suburban population which works in the Chicago Loop. (Suburban Rail lines - Metra)
+
 ## APIs used
 * CTA_-Ridership-L-Station-Entries-Monthly-Day: https://data.cityofchicago.org/Transportation/CTA-Ridership-L-Station-Entries-Monthly-Day-Type-A/t2rn-p8d7
 * L-Map_Stops: https://data.cityofchicago.org/Transportation/CTA-System-Information-List-of-L-Stops/8pix-ypme/data
